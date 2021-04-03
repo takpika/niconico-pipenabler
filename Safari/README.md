@@ -1,2 +1,2 @@
-# 他ブラウザ用ファイル
-Google ChromeやFirefox等で使用する場合はこちらをご使用くださいませ
+# Safari用ファイル
+こちらはMac用Safari限定です。
