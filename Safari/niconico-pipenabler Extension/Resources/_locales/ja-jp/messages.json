@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "niconico-PiP",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "ニコニコ動画でピクチャー・イン・ピクチャーが使えるようになります。",
+        "description": "Description of what the extension does."
+    }
+}

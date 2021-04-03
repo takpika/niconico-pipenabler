@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3121F147261381210058B187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121F146261381210058B187 /* AppDelegate.swift */; };
+		3121F14A261381210058B187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3121F148261381210058B187 /* Main.storyboard */; };
+		3121F14C261381210058B187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121F14B261381210058B187 /* ViewController.swift */; };
+		3121F14E261381230058B187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3121F14D261381230058B187 /* Assets.xcassets */; };
+		3121F159261381230058B187 /* niconico_pipenablerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121F158261381230058B187 /* niconico_pipenablerTests.swift */; };
+		3121F164261381230058B187 /* niconico_pipenablerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121F163261381230058B187 /* niconico_pipenablerUITests.swift */; };
+		3121F16B261381240058B187 /* niconico-pipenabler Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3121F16A261381240058B187 /* niconico-pipenabler Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3121F170261381240058B187 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3121F16F261381240058B187 /* Cocoa.framework */; };
+		3121F173261381240058B187 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3121F172261381240058B187 /* SafariWebExtensionHandler.swift */; };
+		3121F176261381240058B187 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3121F175261381240058B187 /* _locales */; };
+		3121F178261381240058B187 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3121F177261381240058B187 /* images */; };
+		3121F17A261381240058B187 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3121F179261381240058B187 /* manifest.json */; };
+		3121F17C261381240058B187 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3121F17B261381240058B187 /* background.js */; };
+		3121F17E261381240058B187 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3121F17D261381240058B187 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3121F155261381230058B187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3121F13A261381210058B187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3121F141261381210058B187;
+			remoteInfo = "niconico-pipenabler";
+		};
+		3121F160261381230058B187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3121F13A261381210058B187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3121F141261381210058B187;
+			remoteInfo = "niconico-pipenabler";
+		};
+		3121F16C261381240058B187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3121F13A261381210058B187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3121F169261381240058B187;
+			remoteInfo = "niconico-pipenabler Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3121F18C261381240058B187 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3121F16B261381240058B187 /* niconico-pipenabler Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3121F142261381210058B187 /* niconico-pipenabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "niconico-pipenabler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3121F145261381210058B187 /* niconico_pipenabler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = niconico_pipenabler.entitlements; sourceTree = "<group>"; };
+		3121F146261381210058B187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3121F149261381210058B187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3121F14B261381210058B187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3121F14D261381230058B187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3121F14F261381230058B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3121F154261381230058B187 /* niconico-pipenablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "niconico-pipenablerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3121F158261381230058B187 /* niconico_pipenablerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niconico_pipenablerTests.swift; sourceTree = "<group>"; };
+		3121F15A261381230058B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3121F15F261381230058B187 /* niconico-pipenablerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "niconico-pipenablerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3121F163261381230058B187 /* niconico_pipenablerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niconico_pipenablerUITests.swift; sourceTree = "<group>"; };
+		3121F165261381240058B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3121F16A261381240058B187 /* niconico-pipenabler Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "niconico-pipenabler Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3121F16F261381240058B187 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3121F172261381240058B187 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3121F175261381240058B187 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		3121F177261381240058B187 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3121F179261381240058B187 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		3121F17B261381240058B187 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		3121F17D261381240058B187 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		3121F185261381240058B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3121F186261381240058B187 /* niconico_pipenabler_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = niconico_pipenabler_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3121F13F261381210058B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F151261381230058B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F15C261381230058B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F167261381240058B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F170261381240058B187 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3121F139261381210058B187 = {
+			isa = PBXGroup;
+			children = (
+				3121F144261381210058B187 /* niconico-pipenabler */,
+				3121F157261381230058B187 /* niconico-pipenablerTests */,
+				3121F162261381230058B187 /* niconico-pipenablerUITests */,
+				3121F171261381240058B187 /* niconico-pipenabler Extension */,
+				3121F16E261381240058B187 /* Frameworks */,
+				3121F143261381210058B187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3121F143261381210058B187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3121F142261381210058B187 /* niconico-pipenabler.app */,
+				3121F154261381230058B187 /* niconico-pipenablerTests.xctest */,
+				3121F15F261381230058B187 /* niconico-pipenablerUITests.xctest */,
+				3121F16A261381240058B187 /* niconico-pipenabler Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3121F144261381210058B187 /* niconico-pipenabler */ = {
+			isa = PBXGroup;
+			children = (
+				3121F145261381210058B187 /* niconico_pipenabler.entitlements */,
+				3121F146261381210058B187 /* AppDelegate.swift */,
+				3121F148261381210058B187 /* Main.storyboard */,
+				3121F14B261381210058B187 /* ViewController.swift */,
+				3121F14D261381230058B187 /* Assets.xcassets */,
+				3121F14F261381230058B187 /* Info.plist */,
+			);
+			path = "niconico-pipenabler";
+			sourceTree = "<group>";
+		};
+		3121F157261381230058B187 /* niconico-pipenablerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3121F158261381230058B187 /* niconico_pipenablerTests.swift */,
+				3121F15A261381230058B187 /* Info.plist */,
+			);
+			path = "niconico-pipenablerTests";
+			sourceTree = "<group>";
+		};
+		3121F162261381230058B187 /* niconico-pipenablerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3121F163261381230058B187 /* niconico_pipenablerUITests.swift */,
+				3121F165261381240058B187 /* Info.plist */,
+			);
+			path = "niconico-pipenablerUITests";
+			sourceTree = "<group>";
+		};
+		3121F16E261381240058B187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3121F16F261381240058B187 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3121F171261381240058B187 /* niconico-pipenabler Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3121F172261381240058B187 /* SafariWebExtensionHandler.swift */,
+				3121F185261381240058B187 /* Info.plist */,
+				3121F186261381240058B187 /* niconico_pipenabler_Extension.entitlements */,
+				3121F174261381240058B187 /* Resources */,
+			);
+			path = "niconico-pipenabler Extension";
+			sourceTree = "<group>";
+		};
+		3121F174261381240058B187 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3121F175261381240058B187 /* _locales */,
+				3121F177261381240058B187 /* images */,
+				3121F179261381240058B187 /* manifest.json */,
+				3121F17B261381240058B187 /* background.js */,
+				3121F17D261381240058B187 /* content.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3121F141261381210058B187 /* niconico-pipenabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3121F18D261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenabler" */;
+			buildPhases = (
+				3121F13E261381210058B187 /* Sources */,
+				3121F13F261381210058B187 /* Frameworks */,
+				3121F140261381210058B187 /* Resources */,
+				3121F18C261381240058B187 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3121F16D261381240058B187 /* PBXTargetDependency */,
+			);
+			name = "niconico-pipenabler";
+			productName = "niconico-pipenabler";
+			productReference = 3121F142261381210058B187 /* niconico-pipenabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3121F153261381230058B187 /* niconico-pipenablerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3121F190261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenablerTests" */;
+			buildPhases = (
+				3121F150261381230058B187 /* Sources */,
+				3121F151261381230058B187 /* Frameworks */,
+				3121F152261381230058B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3121F156261381230058B187 /* PBXTargetDependency */,
+			);
+			name = "niconico-pipenablerTests";
+			productName = "niconico-pipenablerTests";
+			productReference = 3121F154261381230058B187 /* niconico-pipenablerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3121F15E261381230058B187 /* niconico-pipenablerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3121F193261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenablerUITests" */;
+			buildPhases = (
+				3121F15B261381230058B187 /* Sources */,
+				3121F15C261381230058B187 /* Frameworks */,
+				3121F15D261381230058B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3121F161261381230058B187 /* PBXTargetDependency */,
+			);
+			name = "niconico-pipenablerUITests";
+			productName = "niconico-pipenablerUITests";
+			productReference = 3121F15F261381230058B187 /* niconico-pipenablerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3121F169261381240058B187 /* niconico-pipenabler Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3121F189261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenabler Extension" */;
+			buildPhases = (
+				3121F166261381240058B187 /* Sources */,
+				3121F167261381240058B187 /* Frameworks */,
+				3121F168261381240058B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "niconico-pipenabler Extension";
+			productName = "niconico-pipenabler Extension";
+			productReference = 3121F16A261381240058B187 /* niconico-pipenabler Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3121F13A261381210058B187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3121F141261381210058B187 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3121F153261381230058B187 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3121F141261381210058B187;
+					};
+					3121F15E261381230058B187 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3121F141261381210058B187;
+					};
+					3121F169261381240058B187 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3121F13D261381210058B187 /* Build configuration list for PBXProject "niconico-pipenabler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3121F139261381210058B187;
+			productRefGroup = 3121F143261381210058B187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3121F141261381210058B187 /* niconico-pipenabler */,
+				3121F153261381230058B187 /* niconico-pipenablerTests */,
+				3121F15E261381230058B187 /* niconico-pipenablerUITests */,
+				3121F169261381240058B187 /* niconico-pipenabler Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3121F140261381210058B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F14E261381230058B187 /* Assets.xcassets in Resources */,
+				3121F14A261381210058B187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F152261381230058B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F15D261381230058B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F168261381240058B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F17C261381240058B187 /* background.js in Resources */,
+				3121F178261381240058B187 /* images in Resources */,
+				3121F17A261381240058B187 /* manifest.json in Resources */,
+				3121F176261381240058B187 /* _locales in Resources */,
+				3121F17E261381240058B187 /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3121F13E261381210058B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F14C261381210058B187 /* ViewController.swift in Sources */,
+				3121F147261381210058B187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F150261381230058B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F159261381230058B187 /* niconico_pipenablerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F15B261381230058B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F164261381230058B187 /* niconico_pipenablerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3121F166261381240058B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3121F173261381240058B187 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3121F156261381230058B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3121F141261381210058B187 /* niconico-pipenabler */;
+			targetProxy = 3121F155261381230058B187 /* PBXContainerItemProxy */;
+		};
+		3121F161261381230058B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3121F141261381210058B187 /* niconico-pipenabler */;
+			targetProxy = 3121F160261381230058B187 /* PBXContainerItemProxy */;
+		};
+		3121F16D261381240058B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3121F169261381240058B187 /* niconico-pipenabler Extension */;
+			targetProxy = 3121F16C261381240058B187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3121F148261381210058B187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3121F149261381210058B187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3121F187261381240058B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3121F188261381240058B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3121F18A261381240058B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "niconico-pipenabler Extension/niconico_pipenabler_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "niconico-pipenabler Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenabler.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3121F18B261381240058B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "niconico-pipenabler Extension/niconico_pipenabler_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "niconico-pipenabler Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenabler.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3121F18E261381240058B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "niconico-pipenabler/niconico_pipenabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "niconico-pipenabler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenabler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3121F18F261381240058B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "niconico-pipenabler/niconico_pipenabler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "niconico-pipenabler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenabler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3121F191261381240058B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "niconico-pipenablerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenablerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niconico-pipenabler.app/Contents/MacOS/niconico-pipenabler";
+			};
+			name = Debug;
+		};
+		3121F192261381240058B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "niconico-pipenablerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenablerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niconico-pipenabler.app/Contents/MacOS/niconico-pipenabler";
+			};
+			name = Release;
+		};
+		3121F194261381240058B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "niconico-pipenablerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenablerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "niconico-pipenabler";
+			};
+			name = Debug;
+		};
+		3121F195261381240058B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "niconico-pipenablerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.takpika.niconico-pipenablerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "niconico-pipenabler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3121F13D261381210058B187 /* Build configuration list for PBXProject "niconico-pipenabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3121F187261381240058B187 /* Debug */,
+				3121F188261381240058B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3121F189261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenabler Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3121F18A261381240058B187 /* Debug */,
+				3121F18B261381240058B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3121F18D261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3121F18E261381240058B187 /* Debug */,
+				3121F18F261381240058B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3121F190261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenablerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3121F191261381240058B187 /* Debug */,
+				3121F192261381240058B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3121F193261381240058B187 /* Build configuration list for PBXNativeTarget "niconico-pipenablerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3121F194261381240058B187 /* Debug */,
+				3121F195261381240058B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3121F13A261381210058B187 /* Project object */;
+}

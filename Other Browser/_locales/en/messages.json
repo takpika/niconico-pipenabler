@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "niconico-PiP",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "You can use Picture-in-Picture on niconico.",
+        "description": "Description of what the extension does."
+    }
+}
